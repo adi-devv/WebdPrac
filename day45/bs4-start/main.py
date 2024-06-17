@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 with open('website.html', 'r', encoding='utf-8') as f:
     contents = f.read()
 
-
 soup = BeautifulSoup(contents, 'html.parser')
 
 alla = soup.find_all(name='a')
