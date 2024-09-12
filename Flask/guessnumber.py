@@ -17,7 +17,7 @@ def ha(guess):
         return '<h1 style="text-align: center">Too High!</h1>' \
                '<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHM0eGJvOGI2ano4OXlxYWNobjNuZmpnbnY2MGo0bDdmdTZ1aGJ2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RukXlRREkBRUOJi2uL/giphy.gif" width=200></img>'
     elif guess < r:
-        return '<h1 style="text-align: center">Too Low!</h1>' \
+        return '<h1 style="text-align: center">Too Low!</h1>'  \
                "<img src='https://media.giphy.com/media/jD4DwBtqPXRXa/giphy.gif'/>"
     else:
         return '<h1 style="text-align: center">Hurrah!</h1>' \
