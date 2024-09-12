@@ -8,4 +8,4 @@ titles = [h3.string for h3 in soup.select('div.article-title-description__text h
 titles.reverse()
 
 with open("movies.txt", 'w', encoding='utf-8') as f:
-    f.write('\n'.join(titles)+'\n')
+    f.write('\n'.join(titles)+'\n ')
